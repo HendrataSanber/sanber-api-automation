@@ -1,0 +1,21 @@
+{
+  "name": "sanber-api-automation",
+  "version": "1.0.0",
+  "description": "api automation with supertest",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "npx mocha module\\test\\suites\\category.spec.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "Hendra",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.2",
+    "jsonschema": "^1.4.1",
+    "mocha": "^10.8.2",
+    "supertest": "^7.0.0"
+  }
+}
